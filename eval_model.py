@@ -15,7 +15,6 @@ def softmax(x):
     return f_x
 
 root_path = './student_model/'
-os.environ['CUDA_VISIBLE_DEVICES'] = '2'
 BATCH_SIZE = 1
 models_path = glob.glob('./student_model/small_prettrain_AUG/checkpoint.pth')
 
